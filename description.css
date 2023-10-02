@@ -192,9 +192,3 @@ ul {
     margin-left: 0px;
   }
 }
-@media (max-width: 550px) {
-  nav {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}

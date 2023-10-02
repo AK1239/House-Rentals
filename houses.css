@@ -215,12 +215,7 @@ ul {
     left: 29%;
   }
 }
-@media (max-width: 550px) {
-  nav {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
+
 @media (max-width: 500px) {
   .cardd {
     width: 320px;

@@ -176,9 +176,3 @@ ul {
     width: 260px;
   }
 }
-@media (max-width: 550px) {
-  nav {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
