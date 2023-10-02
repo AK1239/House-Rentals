@@ -84,6 +84,9 @@ ul {
   width: 70%;
   margin: 0 auto;
 }
+.footer-col ul li {
+  color: #bbbbbb;
+}
 .footer-col {
   width: 30%;
 }
