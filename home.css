@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+.bg-dark {
+  background: linear-gradient(to right, black, rgb(20, 46, 57));
+}
+nav {
+  padding-left: 50px;
+  padding-right: 40px;
+  margin-bottom: 40px;
+}
+.nav-link {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 26px;
+}
+
+.preview {
+  background: linear-gradient(to right, black, rgb(20, 46, 57));
+}
+.preview-text {
+  margin-top: 20px;
+}
+.p-5 {
+  padding-bottom: 100px !important;
+}
+#preview-img {
+  border-radius: 20px;
+}
+.content {
+  margin-top: 100px;
+}
+
+.butt {
+  text-align: center;
+  margin: 50px;
+}
+
+.butt button {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  width: 214px;
+  transition: 0.2s;
+  height: 48px;
+}
+.butt button:hover {
+  filter: brightness(0.9);
+}
+.footerr {
+  background-size: 100%;
+  padding: 30px 30px 10px 30px;
+  margin-top: 20px;
+  background: linear-gradient(to right, black, rgb(20, 46, 57));
+}
+.footerr ul {
+  padding-left: 0rem;
+}
+.container2 {
+  margin: auto;
+}
+.roww {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+.footer-col {
+  width: 30%;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  background-color: white;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  line-height: 30px;
+  transition: all 0.3s ease;
+  background-color: inherit;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  nav {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
