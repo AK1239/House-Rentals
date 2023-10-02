@@ -160,6 +160,9 @@ ul {
     width: 50%;
     margin-bottom: 30px;
   }
+  .roww {
+    width: 100%;
+  }
 }
 @media (max-width: 574px) {
   .footer-col {
